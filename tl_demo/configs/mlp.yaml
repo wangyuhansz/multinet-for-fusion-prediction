@@ -1,0 +1,15 @@
+config: mlp
+dist: random
+fidelity: low
+model: MLP
+dim_layers: [2, 10, 10, 10, 5, 1]
+activation: PReLU
+optimizer: Adam
+loss_fn: MSE
+epochs: 1001
+batch_size: 64
+lr: 0.001
+val_interval: 1
+seed: 42
+device: cuda
+mode: train
