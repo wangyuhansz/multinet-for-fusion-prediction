@@ -1,0 +1,17 @@
+config: mlp
+dist: default
+fidelity: low
+model: MLP
+dim_layers: [7, 14, 14, 7, 1]
+activation: PReLU
+optimizer: Adam
+loss_fn: MSE
+epochs: 1001
+batch_size: 16
+val_interval: 5
+seed: 42
+device: default
+mode: val
+data_name: data_lower_new
+val_data_name: data_higher_new
+target: V_mean

@@ -1,3 +1,15 @@
+*.0
+laser_absorptivity/
+laser_absorptivity/**
+multinet/data/
+multinet/data/**
+multinet/models/
+multinet/models/**
+multinet/output/
+multinet/output/**
+multinet/plots/
+multinet/plots/**
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
